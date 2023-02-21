@@ -14,7 +14,7 @@ class App extends StatelessWidget{
   @override
   Widget build (BuildContext context) {
     return GetMaterialApp(
-      home: HomeView(),
+      home: Splash1View(),
       getPages: AppPages.routes,
     );
   }

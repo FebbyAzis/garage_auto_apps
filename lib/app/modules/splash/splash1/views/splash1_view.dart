@@ -17,7 +17,7 @@ class Splash1View extends GetView<Splash1Controller> {
   @override
   Widget build(BuildContext context) {
     Timer(const Duration(seconds: 3), () {
-      Get.toNamed('/splash/splash2');
+      Get.toNamed(Routes.HOME);
 
       }
     );

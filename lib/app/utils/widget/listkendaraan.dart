@@ -23,15 +23,17 @@ class ListKendaraan extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),),
           Padding(
-            padding: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.only(top: 20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               
               children: [
                 ElevatedButton.icon(
                   style: ElevatedButton.styleFrom(
+                    fixedSize: Size.fromHeight(45.5
+                    ),
                     primary: GlobalColors.mainColor,
-                    alignment: Alignment.center,
+                    
                 
                   ),
             onPressed: () {
@@ -40,7 +42,8 @@ class ListKendaraan extends StatelessWidget {
             
             icon: Icon( // <-- Icon
               Ionicons.car,
-              size: 30.0,
+              
+              
               
             ),
             label: Text('Mobil',
@@ -51,18 +54,21 @@ class ListKendaraan extends StatelessWidget {
           ),
           const SizedBox(width: 20),
           ElevatedButton.icon(
+            icon: Icon( // <-- Icon
+              Ionicons.bicycle,
+              
+            ),
             style: ElevatedButton.styleFrom(
                     primary: GlobalColors.mainColor,
-                    alignment: Alignment.center,
+                    fixedSize: Size.fromHeight(45.5
+                    ),
+                    
                 
                   ),
             onPressed: () {
               Get.toNamed(Routes.MERKMOTOR);
             },
-            icon: Icon( // <-- Icon
-              Ionicons.bicycle,
-              size: 30.0,
-            ),
+            
             label: Text('Motor',
             style: TextStyle(
               fontSize: 16,
