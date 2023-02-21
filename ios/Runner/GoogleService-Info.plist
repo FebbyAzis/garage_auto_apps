@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>579845479812-qb3ejvkp8lmv2jr0hprtgpg93grnse4q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.579845479812-qb3ejvkp8lmv2jr0hprtgpg93grnse4q</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>579845479812-k89edvuhtisg9ssarr3blkeh46195ima.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBIj-EcC1DZEzDk8Xuq2HIq5SFNbewjniM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>579845479812</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.garageAutoApp</string>
+	<key>PROJECT_ID</key>
+	<string>garage-auto-app-001</string>
+	<key>STORAGE_BUCKET</key>
+	<string>garage-auto-app-001.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:579845479812:ios:d617c7fb78649c0da4d1d1</string>
+</dict>
+</plist>
